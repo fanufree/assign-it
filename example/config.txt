@@ -1,0 +1,53 @@
+# config file for assignment input
+FASTA    assign.fasta 1 102
+BMRB     cs.str     0 pred.tab 0 predSS.tab
+
+N        n.peaks    3 4 2 5 0.35 0.035 0.035
+CALI     cali.peaks    3 4 2 5 0.35 0.035 0.035
+CARO     caro.peaks    3 4 2 5 0.35 0.035 0.035
+
+#              cs str intensity     sym   interres      net  netstr    ambig      bias
+# WEIGHTS    0.1 0.4    0.1        0.1     0.05        0.05    0.1     0.05       0.05
+
+# 2.8A
+TEMPLATE decoy2_264_h.pdb 0 decoy2_264_h.stride 
+
+# 4.84A
+# TEMPLATE decoy3_533_h.pdb 0 decoy3_533_h.stride 
+
+# 8A
+# TEMPLATE decoy9_188_h.pdb 0 decoy9_188_h.stride
+
+# native structure
+# TEMPLATE ref1.pdb 0 ref1.stride
+
+# do not change this
+MAXITER 1
+
+# do not change this
+MAX_CALIB_ERROR 0.1
+
+
+FILTERASSPOS OR SEQSEP 2 OR SCORECOUNT1 1 2 1 0.001 6 0.001 SCORETERM1 1 9 -3.0
+FILTERASS IF NOISERATIO 100 OR SEQSEP 2 AND INSTRUCTUREFRACT 10 6.0 0.04 -1.0 2 SCORETERM2 1 9 -1.6 1 9 -1.15 ELSE SCORETERM1 1 1 0.2
+FILTERAMBPOS OR SEQSEP 2 OR INSTRUCTUREFRACTTEMP 8.0 0.1 SCORETERM2 1 10312 -1.3 1 10312 -2.3
+AMBIG_FILTER -5 99
+POOL_FILTER  -2
+
+# Change FILTERAMBPOS, AMBIG_FILTER, POOL_FILTER to be more restrictive if the input structure is good 
+# For example, can reduce the ambiguity by changing FILTERAMBPOS to be more restrictive if the structure is good
+# e.g. FILTERAMBPOS OR SEQSEP 2 OR INSTRUCTUREFRACTTEMP 8.0 0.1 SCORETERM2 1 10312 -1.2 1 10312 -1.8 
+# 
+# for near-native structure, can be even more restrictive.
+# e.g. 
+# FILTERASSPOS OR SEQSEP 2 OR SCORECOUNT1 1 2 1 0.001 6 0.001 SCORETERM1 1 9 -3.0
+# FILTERASS IF NOISERATIO 100 AND INSTRUCTUREFRACTTEMP 6.5 0.5 SCORETERM2 1 9 -1.6 1 9 -1.15 ELSE SCORETERM1 1 1 0.2
+# FILTERAMBPOS INSTRUCTUREFRACTTEMP 8.0 0.1
+# AMBIG_FILTER -4 99
+# POOL_FILTER  -2
+
+
+# files containing program parameters; do not change
+contactstats ../longrange.txt ../sequential.txt ../intra.txt
+scscstats ../residueContactStats.txt
+
