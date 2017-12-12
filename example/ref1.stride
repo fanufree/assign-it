@@ -1,0 +1,301 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  ref1.pdb A                                                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    MDQFLVQIFAVIHQIPKGKVSTYGEIAKMAGYPGYARHVGKALGNLPEGS   50          ~~~~
+STR         HHHHHHHHHHH  TTTTBEEHHHHHHHH TTTHHHHHHHHHHH TTTT               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   KLPWFRVINSQGKISLKGRDLDRQKQKLEAEGIEVSEIGKIALRKYKWQP  100          ~~~~
+STR       TTTTTTEEBTTTB    HHHHHHHHHHHHH    EETTTEE GGG B                  ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+SEQ  101  LE                                                  102          ~~~~
+STR                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  AlphaHelix   GLN     3 A      HIS     13 A                            ~~~~
+LOC  AlphaHelix   TYR    23 A      ALA     30 A                            ~~~~
+LOC  AlphaHelix   TYR    35 A      ASN     45 A                            ~~~~
+LOC  AlphaHelix   GLY    68 A      ALA     80 A                            ~~~~
+LOC  310Helix     LEU    93 A      LYS     95 A                            ~~~~
+LOC  Strand       SER    21 A      THR     22 A                            ~~~~
+LOC  Strand       VAL    57 A      ILE     58 A                            ~~~~
+LOC  Strand       VAL    85 A      SER     86 A                            ~~~~
+LOC  Strand       LYS    90 A      ILE     91 A                            ~~~~
+LOC  TurnII       PRO    16 A      LYS     19 A                            ~~~~
+LOC  TurnII       TYR    32 A      TYR     35 A                            ~~~~
+LOC  TurnIV       PRO    47 A      SER     50 A                            ~~~~
+LOC  TurnVIII     SER    50 A      PRO     53 A                            ~~~~
+LOC  TurnI        PRO    53 A      ARG     56 A                            ~~~~
+LOC  TurnI        TRP    54 A      VAL     57 A                            ~~~~
+LOC  TurnI        ASN    59 A      GLY     62 A                            ~~~~
+LOC  TurnI        SER    86 A      GLY     89 A                            ~~~~
+REM                                                                        ~~~~
+REM  --------------- Detailed secondary structure assignment-------------  ~~~~
+REM                                                                        ~~~~
+REM  |---Residue---|    |--Structure--|   |-Phi-|   |-Psi-|  |-Area-|      ~~~~
+ASG  MET A    1    1    C          Coil    360.00    132.38     159.7      ~~~~
+ASG  ASP A    2    2    C          Coil    -55.80    129.14     107.7      ~~~~
+ASG  GLN A    3    3    H    AlphaHelix    -52.97    -44.27     115.1      ~~~~
+ASG  PHE A    4    4    H    AlphaHelix    -54.74    -50.72      35.0      ~~~~
+ASG  LEU A    5    5    H    AlphaHelix    -61.11    -42.24      34.5      ~~~~
+ASG  VAL A    6    6    H    AlphaHelix    -59.51    -41.58      60.3      ~~~~
+ASG  GLN A    7    7    H    AlphaHelix    -66.29    -54.31      73.8      ~~~~
+ASG  ILE A    8    8    H    AlphaHelix    -63.31    -43.86       0.0      ~~~~
+ASG  PHE A    9    9    H    AlphaHelix    -60.67    -45.23      25.1      ~~~~
+ASG  ALA A   10   10    H    AlphaHelix    -52.36    -43.86      47.9      ~~~~
+ASG  VAL A   11   11    H    AlphaHelix    -64.46    -47.14      20.0      ~~~~
+ASG  ILE A   12   12    H    AlphaHelix    -55.69    -33.98       0.0      ~~~~
+ASG  HIS A   13   13    H    AlphaHelix    -61.21    -16.15     101.0      ~~~~
+ASG  GLN A   14   14    C          Coil    -82.88     -7.30     120.3      ~~~~
+ASG  ILE A   15   15    C          Coil    -80.46    116.48       2.0      ~~~~
+ASG  PRO A   16   16    T          Turn    -69.94    170.20      45.4      ~~~~
+ASG  LYS A   17   17    T          Turn    -65.79    121.00     132.6      ~~~~
+ASG  GLY A   18   18    T          Turn     92.27     17.59      11.4      ~~~~
+ASG  LYS A   19   19    T          Turn   -119.94    146.28      37.5      ~~~~
+ASG  VAL A   20   20    B        Bridge   -130.00    140.24       0.0      ~~~~
+ASG  SER A   21   21    E        Strand   -122.47    170.27       0.0      ~~~~
+ASG  THR A   22   22    E        Strand    -95.83    147.50      15.2      ~~~~
+ASG  TYR A   23   23    H    AlphaHelix    -52.91    -32.90      17.0      ~~~~
+ASG  GLY A   24   24    H    AlphaHelix    -64.78    -44.02      34.3      ~~~~
+ASG  GLU A   25   25    H    AlphaHelix    -64.59    -44.90      48.3      ~~~~
+ASG  ILE A   26   26    H    AlphaHelix    -60.58    -50.01       0.0      ~~~~
+ASG  ALA A   27   27    H    AlphaHelix    -57.50    -43.84       2.2      ~~~~
+ASG  LYS A   28   28    H    AlphaHelix    -59.21    -48.20     157.1      ~~~~
+ASG  MET A   29   29    H    AlphaHelix    -65.95    -28.75     101.6      ~~~~
+ASG  ALA A   30   30    H    AlphaHelix    -78.35    -20.55       9.1      ~~~~
+ASG  GLY A   31   31    C          Coil     92.87     22.41      53.4      ~~~~
+ASG  TYR A   32   32    T          Turn   -124.94     81.82      56.4      ~~~~
+ASG  PRO A   33   33    T          Turn    -61.62    131.72     111.5      ~~~~
+ASG  GLY A   34   34    T          Turn     90.95     -8.46      72.3      ~~~~
+ASG  TYR A   35   35    H    AlphaHelix    -89.68     22.60     102.6      ~~~~
+ASG  ALA A   36   36    H    AlphaHelix    -55.36    -57.58      33.4      ~~~~
+ASG  ARG A   37   37    H    AlphaHelix    -58.66    -32.30     203.0      ~~~~
+ASG  HIS A   38   38    H    AlphaHelix    -65.20    -41.28      65.7      ~~~~
+ASG  VAL A   39   39    H    AlphaHelix    -58.43    -37.95       0.0      ~~~~
+ASG  GLY A   40   40    H    AlphaHelix    -63.79    -37.66      13.2      ~~~~
+ASG  LYS A   41   41    H    AlphaHelix    -62.75    -47.27     128.2      ~~~~
+ASG  ALA A   42   42    H    AlphaHelix    -55.07    -51.42       8.5      ~~~~
+ASG  LEU A   43   43    H    AlphaHelix    -63.56    -43.35       3.0      ~~~~
+ASG  GLY A   44   44    H    AlphaHelix    -67.11    -22.72      28.7      ~~~~
+ASG  ASN A   45   45    H    AlphaHelix    -79.85    -21.08     139.3      ~~~~
+ASG  LEU A   46   46    C          Coil    -75.77    155.39      28.1      ~~~~
+ASG  PRO A   47   47    T          Turn    -63.57    164.87      81.9      ~~~~
+ASG  GLU A   48   48    T          Turn    -64.91    -26.57      94.7      ~~~~
+ASG  GLY A   49   49    T          Turn   -131.88     64.38      50.2      ~~~~
+ASG  SER A   50   50    T          Turn    -79.72    172.77      40.2      ~~~~
+ASG  LYS A   51   51    T          Turn    -67.79    -28.94     188.3      ~~~~
+ASG  LEU A   52   52    T          Turn    -86.71    124.80       5.2      ~~~~
+ASG  PRO A   53   53    T          Turn    -67.19     95.08      17.5      ~~~~
+ASG  TRP A   54   54    T          Turn    -82.51    -30.49       2.4      ~~~~
+ASG  PHE A   55   55    T          Turn    -67.32    -11.53      23.9      ~~~~
+ASG  ARG A   56   56    T          Turn    -86.27      8.08      33.3      ~~~~
+ASG  VAL A   57   57    E        Strand   -127.86    116.23       0.2      ~~~~
+ASG  ILE A   58   58    E        Strand   -118.98   -174.52       0.0      ~~~~
+ASG  ASN A   59   59    B        Bridge    -83.78    168.75      29.7      ~~~~
+ASG  SER A   60   60    T          Turn    -67.93     -9.24     103.1      ~~~~
+ASG  GLN A   61   61    T          Turn    -88.14      0.69     139.0      ~~~~
+ASG  GLY A   62   62    T          Turn     67.41     42.59       3.8      ~~~~
+ASG  LYS A   63   63    B        Bridge   -141.15    157.32      78.2      ~~~~
+ASG  ILE A   64   64    C          Coil    -73.34    128.07      14.9      ~~~~
+ASG  SER A   65   65    C          Coil    -74.29    -31.04      48.1      ~~~~
+ASG  LEU A   66   66    C          Coil    -74.91    152.51      26.9      ~~~~
+ASG  LYS A   67   67    C          Coil   -129.45    171.40     158.3      ~~~~
+ASG  GLY A   68   68    H    AlphaHelix     57.58   -128.75      62.3      ~~~~
+ASG  ARG A   69   69    H    AlphaHelix    -61.71    -39.41     220.3      ~~~~
+ASG  ASP A   70   70    H    AlphaHelix    -65.43    -25.90      66.4      ~~~~
+ASG  LEU A   71   71    H    AlphaHelix    -64.11    -55.92      26.9      ~~~~
+ASG  ASP A   72   72    H    AlphaHelix    -65.99    -27.04      74.1      ~~~~
+ASG  ARG A   73   73    H    AlphaHelix    -57.44    -55.11      28.1      ~~~~
+ASG  GLN A   74   74    H    AlphaHelix    -64.84    -41.95       1.8      ~~~~
+ASG  LYS A   75   75    H    AlphaHelix    -54.81    -55.14      40.5      ~~~~
+ASG  GLN A   76   76    H    AlphaHelix    -58.74    -36.96      87.8      ~~~~
+ASG  LYS A   77   77    H    AlphaHelix    -64.16    -42.44      40.6      ~~~~
+ASG  LEU A   78   78    H    AlphaHelix    -68.99    -31.89       0.0      ~~~~
+ASG  GLU A   79   79    H    AlphaHelix    -65.81    -30.54     105.2      ~~~~
+ASG  ALA A   80   80    H    AlphaHelix    -75.26    -11.86      66.7      ~~~~
+ASG  GLU A   81   81    C          Coil    -97.82    -11.31      25.5      ~~~~
+ASG  GLY A   82   82    C          Coil     80.91     50.40      53.8      ~~~~
+ASG  ILE A   83   83    C          Coil   -119.97    129.54       3.9      ~~~~
+ASG  GLU A   84   84    C          Coil    -75.64     91.52     149.8      ~~~~
+ASG  VAL A   85   85    E        Strand    -96.68    121.10      22.7      ~~~~
+ASG  SER A   86   86    E        Strand    -72.91    151.27      48.2      ~~~~
+ASG  GLU A   87   87    T          Turn    -42.36    -44.70     174.9      ~~~~
+ASG  ILE A   88   88    T          Turn    -81.10      9.53     110.4      ~~~~
+ASG  GLY A   89   89    T          Turn     85.57     45.59       0.8      ~~~~
+ASG  LYS A   90   90    E        Strand   -114.35    132.84      98.0      ~~~~
+ASG  ILE A   91   91    E        Strand   -127.08    138.80       1.9      ~~~~
+ASG  ALA A   92   92    C          Coil    -80.29     93.93      47.0      ~~~~
+ASG  LEU A   93   93    G      310Helix    -53.79    -52.33      27.9      ~~~~
+ASG  ARG A   94   94    G      310Helix    -52.82    -14.07     250.5      ~~~~
+ASG  LYS A   95   95    G      310Helix   -112.98    -33.91     166.0      ~~~~
+ASG  TYR A   96   96    C          Coil    -99.33      0.32      30.9      ~~~~
+ASG  LYS A   97   97    B        Bridge    -57.18    138.18      72.0      ~~~~
+ASG  TRP A   98   98    C          Coil    -64.96    105.26      19.7      ~~~~
+ASG  GLN A   99   99    C          Coil   -112.09     99.53     112.3      ~~~~
+ASG  PRO A  100  100    C          Coil    -69.25     32.22      87.4      ~~~~
+ASG  LEU A  101  101    C          Coil   -103.78     -1.76     160.7      ~~~~
+ASG  GLU A  102  102    C          Coil    -99.50    360.00     147.1      ~~~~
+REM                                                                        ~~~~
+REM  ------------------ Mainchain hydrogen bonds ------------------------  ~~~~
+REM                                                                        ~~~~
+REM  Definition of Stickle et al., J.Mol.Biol. 226:1143-1159, 1992         ~~~~
+REM  A1 is the angle between the planes of donor complex and O..N-C        ~~~~
+REM  A2 is the angle between the planes of acceptor complex and N..O=C     ~~~~
+REM                                                                        ~~~~
+HBT  74                                                                    ~~~~
+HBI  0                                                                     ~~~~
+HBC  74      ref1.pdb A  102                                               ~~~~
+REM                                                                        ~~~~
+REM  |--Residue 1--|     |--Residue 2--|  N-O N..O=C O..N-C     A1     A2  ~~~~
+ACC  ASP A    2    1 ->  VAL A    6    5  3.0  164.2  115.2   10.6   10.5  ~~~~
+ACC  GLN A    3    2 ->  GLN A    7    6  3.0  160.7  116.7   20.1   61.0  ~~~~
+ACC  PHE A    4    3 ->  GLN A    7    6  3.2  109.8  122.3   55.1   83.5  ~~~~
+ACC  PHE A    4    3 ->  ILE A    8    7  3.1  163.8  116.6    0.1   55.6  ~~~~
+ACC  LEU A    5    4 ->  PHE A    9    8  3.0  156.5  133.3    0.9   88.1  ~~~~
+DNR  VAL A    6    5 ->  ASP A    2    1  3.0  164.2  115.2   10.6   10.5  ~~~~
+ACC  VAL A    6    5 ->  ALA A   10    9  3.0  145.2  132.9   12.8   82.8  ~~~~
+DNR  GLN A    7    6 ->  GLN A    3    2  3.0  160.7  116.7   20.1   61.0  ~~~~
+DNR  GLN A    7    6 ->  PHE A    4    3  3.2  109.8  122.3   55.1   83.5  ~~~~
+ACC  GLN A    7    6 ->  VAL A   11   10  3.2  152.3  115.0   18.6   55.5  ~~~~
+DNR  ILE A    8    7 ->  PHE A    4    3  3.1  163.8  116.6    0.1   55.6  ~~~~
+ACC  ILE A    8    7 ->  VAL A   11   10  3.2  110.3  123.6   56.9   82.9  ~~~~
+ACC  ILE A    8    7 ->  ILE A   12   11  3.0  157.6  116.1   13.4   39.2  ~~~~
+DNR  PHE A    9    8 ->  LEU A    5    4  3.0  156.5  133.3    0.9   88.1  ~~~~
+ACC  PHE A    9    8 ->  HIS A   13   12  3.1  162.8  110.9   22.5   62.5  ~~~~
+DNR  ALA A   10    9 ->  VAL A    6    5  3.0  145.2  132.9   12.8   82.8  ~~~~
+ACC  ALA A   10    9 ->  HIS A   13   12  3.5  106.3  127.3   45.6   78.8  ~~~~
+DNR  VAL A   11   10 ->  GLN A    7    6  3.2  152.3  115.0   18.6   55.5  ~~~~
+DNR  VAL A   11   10 ->  ILE A    8    7  3.2  110.3  123.6   56.9   82.9  ~~~~
+ACC  VAL A   11   10 ->  GLN A   14   13  3.0  130.2  132.9    6.0   68.4  ~~~~
+DNR  ILE A   12   11 ->  ILE A    8    7  3.0  157.6  116.1   13.4   39.2  ~~~~
+ACC  ILE A   12   11 ->  ILE A   15   14  3.0  126.3  130.9    0.5   78.7  ~~~~
+DNR  HIS A   13   12 ->  PHE A    9    8  3.1  162.8  110.9   22.5   62.5  ~~~~
+DNR  HIS A   13   12 ->  ALA A   10    9  3.5  106.3  127.3   45.6   78.8  ~~~~
+DNR  GLN A   14   13 ->  VAL A   11   10  3.0  130.2  132.9    6.0   68.4  ~~~~
+DNR  ILE A   15   14 ->  ILE A   12   11  3.0  126.3  130.9    0.5   78.7  ~~~~
+ACC  PRO A   16   15 ->  LYS A   19   18  3.3  136.0  124.7   32.5   66.5  ~~~~
+DNR  LYS A   19   18 ->  PRO A   16   15  3.3  136.0  124.7   32.5   66.5  ~~~~
+DNR  VAL A   20   19 ->  TYR A   96   95  3.0  159.2  119.4    4.7   89.2  ~~~~
+ACC  VAL A   20   19 ->  TRP A   98   97  3.0  129.1  103.3   26.8   87.8  ~~~~
+DNR  SER A   21   20 ->  ARG A   56   55  3.0  155.1  103.6    4.0   45.4  ~~~~
+ACC  SER A   21   20 ->  ILE A   58   57  3.0  175.8  109.4   21.3   49.2  ~~~~
+ACC  THR A   22   21 ->  GLU A   25   24  3.0  123.6  118.0   50.5   86.1  ~~~~
+ACC  THR A   22   21 ->  ILE A   26   25  3.2  164.7  113.2    3.2    6.4  ~~~~
+DNR  TYR A   23   22 ->  ILE A   58   57  3.2  164.8   98.4   21.7   82.4  ~~~~
+ACC  TYR A   23   22 ->  ALA A   27   26  3.0  151.8  127.9    5.3   78.3  ~~~~
+ACC  GLY A   24   23 ->  LYS A   28   27  3.0  151.0  126.2   16.3   71.3  ~~~~
+DNR  GLU A   25   24 ->  THR A   22   21  3.0  123.6  118.0   50.5   86.1  ~~~~
+ACC  GLU A   25   24 ->  MET A   29   28  3.0  155.0  120.1   12.1   67.5  ~~~~
+DNR  ILE A   26   25 ->  THR A   22   21  3.2  164.7  113.2    3.2    6.4  ~~~~
+ACC  ILE A   26   25 ->  ALA A   30   29  3.0  157.7  117.8   29.3   50.8  ~~~~
+DNR  ALA A   27   26 ->  TYR A   23   22  3.0  151.8  127.9    5.3   78.3  ~~~~
+ACC  ALA A   27   26 ->  ALA A   30   29  3.2  104.4  128.0   54.5   84.9  ~~~~
+ACC  ALA A   27   26 ->  GLY A   31   30  3.0  154.2  109.4   42.3   58.2  ~~~~
+ACC  ALA A   27   26 ->  TYR A   32   31  3.0  147.5  122.6   10.0   80.5  ~~~~
+DNR  LYS A   28   27 ->  GLY A   24   23  3.0  151.0  126.2   16.3   71.3  ~~~~
+ACC  LYS A   28   27 ->  GLY A   31   30  3.1  107.7  132.2   36.0   85.1  ~~~~
+DNR  MET A   29   28 ->  GLU A   25   24  3.0  155.0  120.1   12.1   67.5  ~~~~
+DNR  ALA A   30   29 ->  ILE A   26   25  3.0  157.7  117.8   29.3   50.8  ~~~~
+DNR  ALA A   30   29 ->  ALA A   27   26  3.2  104.4  128.0   54.5   84.9  ~~~~
+DNR  GLY A   31   30 ->  ALA A   27   26  3.0  154.2  109.4   42.3   58.2  ~~~~
+DNR  GLY A   31   30 ->  LYS A   28   27  3.1  107.7  132.2   36.0   85.1  ~~~~
+DNR  TYR A   32   31 ->  ALA A   27   26  3.0  147.5  122.6   10.0   80.5  ~~~~
+ACC  TYR A   32   31 ->  TYR A   35   34  3.3  132.4  135.0    6.3   63.3  ~~~~
+DNR  TYR A   35   34 ->  TYR A   32   31  3.3  132.4  135.0    6.3   63.3  ~~~~
+ACC  TYR A   35   34 ->  HIS A   38   37  3.1  110.0  127.0   57.0   82.8  ~~~~
+ACC  TYR A   35   34 ->  VAL A   39   38  3.0  162.8  110.9   12.9   55.5  ~~~~
+ACC  ALA A   36   35 ->  VAL A   39   38  3.1  116.2  121.1   56.6   84.8  ~~~~
+ACC  ALA A   36   35 ->  GLY A   40   39  3.2  151.8  110.5   19.1   28.0  ~~~~
+ACC  ARG A   37   36 ->  LYS A   41   40  3.0  154.9  106.9   22.4   43.4  ~~~~
+DNR  HIS A   38   37 ->  TYR A   35   34  3.1  110.0  127.0   57.0   82.8  ~~~~
+ACC  HIS A   38   37 ->  LYS A   41   40  3.1  106.5  122.9   54.6   88.4  ~~~~
+ACC  HIS A   38   37 ->  ALA A   42   41  3.1  155.1  114.6   11.7   57.5  ~~~~
+DNR  VAL A   39   38 ->  TYR A   35   34  3.0  162.8  110.9   12.9   55.5  ~~~~
+DNR  VAL A   39   38 ->  ALA A   36   35  3.1  116.2  121.1   56.6   84.8  ~~~~
+ACC  VAL A   39   38 ->  LEU A   43   42  3.2  157.0  116.9    7.6   63.8  ~~~~
+DNR  GLY A   40   39 ->  ALA A   36   35  3.2  151.8  110.5   19.1   28.0  ~~~~
+ACC  GLY A   40   39 ->  GLY A   44   43  3.1  148.9  128.9    9.8   71.1  ~~~~
+DNR  LYS A   41   40 ->  ARG A   37   36  3.0  154.9  106.9   22.4   43.4  ~~~~
+DNR  LYS A   41   40 ->  HIS A   38   37  3.1  106.5  122.9   54.6   88.4  ~~~~
+ACC  LYS A   41   40 ->  ASN A   45   44  3.0  160.1  116.8   39.6   56.1  ~~~~
+DNR  ALA A   42   41 ->  HIS A   38   37  3.1  155.1  114.6   11.7   57.5  ~~~~
+ACC  ALA A   42   41 ->  ASN A   45   44  3.1  106.3  133.1   44.1   82.4  ~~~~
+ACC  ALA A   42   41 ->  LEU A   46   45  3.1  153.3  103.6   39.4   51.7  ~~~~
+DNR  LEU A   43   42 ->  VAL A   39   38  3.2  157.0  116.9    7.6   63.8  ~~~~
+ACC  LEU A   43   42 ->  LEU A   46   45  3.2  108.8  131.2   31.3   85.1  ~~~~
+DNR  GLY A   44   43 ->  GLY A   40   39  3.1  148.9  128.9    9.8   71.1  ~~~~
+DNR  ASN A   45   44 ->  LYS A   41   40  3.0  160.1  116.8   39.6   56.1  ~~~~
+DNR  ASN A   45   44 ->  ALA A   42   41  3.1  106.3  133.1   44.1   82.4  ~~~~
+DNR  LEU A   46   45 ->  ALA A   42   41  3.1  153.3  103.6   39.4   51.7  ~~~~
+DNR  LEU A   46   45 ->  LEU A   43   42  3.2  108.8  131.2   31.3   85.1  ~~~~
+ACC  TRP A   54   53 ->  VAL A   57   56  3.5  126.2  120.0   24.1   60.8  ~~~~
+ACC  ARG A   56   55 ->  SER A   21   20  3.0  155.1  103.6    4.0   45.4  ~~~~
+DNR  VAL A   57   56 ->  TRP A   54   53  3.5  126.2  120.0   24.1   60.8  ~~~~
+DNR  ILE A   58   57 ->  SER A   21   20  3.0  175.8  109.4   21.3   49.2  ~~~~
+ACC  ILE A   58   57 ->  TYR A   23   22  3.2  164.8   98.4   21.7   82.4  ~~~~
+DNR  ASN A   59   58 ->  LYS A   63   62  3.3  163.1  120.1    7.0   16.9  ~~~~
+ACC  ASN A   59   58 ->  GLY A   62   61  3.1  124.0  129.1   17.5   72.5  ~~~~
+DNR  GLY A   62   61 ->  ASN A   59   58  3.1  124.0  129.1   17.5   72.5  ~~~~
+ACC  GLY A   62   61 ->  ILE A   91   90  3.0  144.8  123.6    4.1   82.0  ~~~~
+ACC  LYS A   63   62 ->  ASN A   59   58  3.3  163.1  120.1    7.0   16.9  ~~~~
+DNR  ILE A   64   63 ->  GLY A   89   88  3.0  149.7  108.6    4.2   48.4  ~~~~
+ACC  LYS A   67   66 ->  ASP A   70   69  3.1  136.0  123.5   51.3   66.8  ~~~~
+ACC  LYS A   67   66 ->  LEU A   71   70  3.3   93.8  104.6   26.6   80.9  ~~~~
+ACC  GLY A   68   67 ->  LEU A   71   70  3.2  109.5  130.3   41.3   81.4  ~~~~
+ACC  ARG A   69   68 ->  ARG A   73   72  3.0  157.6  122.2   25.8   31.2  ~~~~
+DNR  ASP A   70   69 ->  LYS A   67   66  3.1  136.0  123.5   51.3   66.8  ~~~~
+ACC  ASP A   70   69 ->  GLN A   74   73  3.0  143.2  117.0    9.2   87.2  ~~~~
+DNR  LEU A   71   70 ->  LYS A   67   66  3.3   93.8  104.6   26.6   80.9  ~~~~
+DNR  LEU A   71   70 ->  GLY A   68   67  3.2  109.5  130.3   41.3   81.4  ~~~~
+ACC  LEU A   71   70 ->  LYS A   75   74  3.0  154.9  124.5   11.4   35.6  ~~~~
+ACC  ASP A   72   71 ->  GLN A   76   75  3.0  149.1  123.1    5.9   77.7  ~~~~
+DNR  ARG A   73   72 ->  ARG A   69   68  3.0  157.6  122.2   25.8   31.2  ~~~~
+ACC  ARG A   73   72 ->  LYS A   77   76  3.3  147.3  123.5   16.0   64.7  ~~~~
+DNR  GLN A   74   73 ->  ASP A   70   69  3.0  143.2  117.0    9.2   87.2  ~~~~
+ACC  GLN A   74   73 ->  LEU A   78   77  3.0  158.6  117.1   19.5   43.5  ~~~~
+DNR  LYS A   75   74 ->  LEU A   71   70  3.0  154.9  124.5   11.4   35.6  ~~~~
+ACC  LYS A   75   74 ->  LEU A   78   77  3.0  114.6  120.4   59.2   87.6  ~~~~
+ACC  LYS A   75   74 ->  GLU A   79   78  3.0  165.3  113.6   20.4   31.2  ~~~~
+DNR  GLN A   76   75 ->  ASP A   72   71  3.0  149.1  123.1    5.9   77.7  ~~~~
+ACC  GLN A   76   75 ->  GLU A   79   78  3.4   97.6  124.2   59.0   88.0  ~~~~
+ACC  GLN A   76   75 ->  ALA A   80   79  3.1  144.4  112.4   29.3   67.6  ~~~~
+DNR  LYS A   77   76 ->  ARG A   73   72  3.3  147.3  123.5   16.0   64.7  ~~~~
+ACC  LYS A   77   76 ->  ALA A   80   79  3.2  106.3  131.7   50.0   82.0  ~~~~
+ACC  LYS A   77   76 ->  GLU A   81   80  3.3  142.5   97.2   46.2   40.0  ~~~~
+DNR  LEU A   78   77 ->  GLN A   74   73  3.0  158.6  117.1   19.5   43.5  ~~~~
+DNR  LEU A   78   77 ->  LYS A   75   74  3.0  114.6  120.4   59.2   87.6  ~~~~
+ACC  LEU A   78   77 ->  GLU A   81   80  3.0  104.9  140.5   27.1   86.9  ~~~~
+ACC  LEU A   78   77 ->  GLY A   82   81  3.0  151.2   98.0   49.6   48.2  ~~~~
+ACC  LEU A   78   77 ->  ILE A   83   82  3.1  141.1  117.6   34.0   67.7  ~~~~
+DNR  GLU A   79   78 ->  LYS A   75   74  3.0  165.3  113.6   20.4   31.2  ~~~~
+DNR  GLU A   79   78 ->  GLN A   76   75  3.4   97.6  124.2   59.0   88.0  ~~~~
+ACC  GLU A   79   78 ->  GLY A   82   81  3.3   98.7  133.1   22.9   90.0  ~~~~
+DNR  ALA A   80   79 ->  GLN A   76   75  3.1  144.4  112.4   29.3   67.6  ~~~~
+DNR  ALA A   80   79 ->  LYS A   77   76  3.2  106.3  131.7   50.0   82.0  ~~~~
+DNR  GLU A   81   80 ->  LYS A   77   76  3.3  142.5   97.2   46.2   40.0  ~~~~
+DNR  GLU A   81   80 ->  LEU A   78   77  3.0  104.9  140.5   27.1   86.9  ~~~~
+DNR  GLY A   82   81 ->  LEU A   78   77  3.0  151.2   98.0   49.6   48.2  ~~~~
+DNR  GLY A   82   81 ->  GLU A   79   78  3.3   98.7  133.1   22.9   90.0  ~~~~
+DNR  ILE A   83   82 ->  LEU A   78   77  3.1  141.1  117.6   34.0   67.7  ~~~~
+DNR  SER A   86   85 ->  LYS A   90   89  3.0  147.6  115.9    9.7   14.4  ~~~~
+ACC  SER A   86   85 ->  GLY A   89   88  3.0  143.1  132.2   19.8   60.6  ~~~~
+ACC  SER A   86   85 ->  LYS A   90   89  3.3  124.7  103.2    3.2   41.4  ~~~~
+DNR  GLY A   89   88 ->  SER A   86   85  3.0  143.1  132.2   19.8   60.6  ~~~~
+ACC  GLY A   89   88 ->  ILE A   64   63  3.0  149.7  108.6    4.2   48.4  ~~~~
+DNR  LYS A   90   89 ->  SER A   86   85  3.3  124.7  103.2    3.2   41.4  ~~~~
+ACC  LYS A   90   89 ->  SER A   86   85  3.0  147.6  115.9    9.7   14.4  ~~~~
+DNR  ILE A   91   90 ->  GLY A   62   61  3.0  144.8  123.6    4.1   82.0  ~~~~
+ACC  ALA A   92   91 ->  LYS A   95   94  3.2  121.3  134.7   12.6   68.2  ~~~~
+ACC  ALA A   92   91 ->  TYR A   96   95  3.0  158.8  121.8   23.6    2.0  ~~~~
+ACC  LEU A   93   92 ->  TYR A   96   95  3.0  119.8  105.1   48.5   79.4  ~~~~
+ACC  LEU A   93   92 ->  LYS A   97   96  3.0  149.3  120.2   33.5    1.2  ~~~~
+DNR  LYS A   95   94 ->  ALA A   92   91  3.2  121.3  134.7   12.6   68.2  ~~~~
+DNR  TYR A   96   95 ->  ALA A   92   91  3.0  158.8  121.8   23.6    2.0  ~~~~
+DNR  TYR A   96   95 ->  LEU A   93   92  3.0  119.8  105.1   48.5   79.4  ~~~~
+ACC  TYR A   96   95 ->  VAL A   20   19  3.0  159.2  119.4    4.7   89.2  ~~~~
+DNR  LYS A   97   96 ->  LEU A   93   92  3.0  149.3  120.2   33.5    1.2  ~~~~
+DNR  TRP A   98   97 ->  VAL A   20   19  3.0  129.1  103.3   26.8   87.8  ~~~~
